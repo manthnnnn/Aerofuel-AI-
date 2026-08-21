@@ -1,6 +1,6 @@
 # 🛫 AeroFuel AI — Enterprise Aviation Fuel Analytics & Predictive Telemetry Engine
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-aerofuel--ai.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=white)](https://aerofuel-ai.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-aerofuelai1.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=white)](https://aerofuelai1.vercel.app/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
@@ -93,7 +93,7 @@ AeroFuel AI is built to run **100% free** with zero dedicated server costs and z
 ### Option 1: Vercel Serverless Fullstack (Recommended — 0$/month)
 Deploy both the Vite React SPA and FastAPI Python backend on Vercel's Edge/Serverless infrastructure:
 1. Connect your GitHub repository to [Vercel](https://vercel.com).
-2. The included [`vercel.json`](vercel.json) and [`api/index.py`](api/index.py) automatically route all `/api/*` requests to the Python serverless runtime and serve the frontend at `aerofuel-ai.vercel.app`.
+2. The included [`vercel.json`](vercel.json) and [`api/index.py`](api/index.py) automatically route all `/api/*` requests to the Python serverless runtime and serve the frontend at `https://aerofuelai1.vercel.app/`.
 
 ### Option 2: Hugging Face Spaces (24/7 Free Persistent Compute)
 For 24/7 dedicated compute without sleep timers (2 vCPU, 16GB RAM free):

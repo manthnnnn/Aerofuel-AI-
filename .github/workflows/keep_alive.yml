@@ -13,6 +13,6 @@ jobs:
       - name: Ping AeroFuel Live API
         run: |
           echo "Sending 24/7 keep-alive heartbeat..."
-          curl -s -f "https://aerofuel-ai.vercel.app/api/airports" || echo "Vercel serverless responsive"
+          curl -s -f "https://aerofuelai1.vercel.app/api/airports" || echo "Vercel serverless responsive"
           # If using Render or Koyeb, replace or add URL below:
           # curl -s -f "https://YOUR-RENDER-OR-KOYEB-APP.onrender.com/" || true
