@@ -4,10 +4,14 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 import numpy as np
-import shap
 import json
 import os
 import sys
+
+try:
+    import shap
+except ImportError:
+    shap = None
 
 # Ensure utils can be imported
 sys.path.append(os.path.dirname(__file__))
