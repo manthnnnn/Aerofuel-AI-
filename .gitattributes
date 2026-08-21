@@ -1,0 +1,6 @@
+# GitHub Linguist language detection overrides
+# Ensures Python is detected as the primary language of the repository
+frontend/** linguist-detectable=false
+catboost_info/** linguist-vendored
+backend/data/** linguist-detectable=false
+docs/** linguist-documentation

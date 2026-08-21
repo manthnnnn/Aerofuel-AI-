@@ -1,0 +1,42 @@
+{
+    "RandomForest": {
+        "MAE": 2451.24,
+        "RMSE": 3093.05,
+        "R2": 0.9581,
+        "MAPE": 0.1448,
+        "Training_Time_s": 0.82,
+        "Prediction_Time_s": 0.0317
+    },
+    "XGBoost": {
+        "MAE": 2542.0,
+        "RMSE": 3189.2,
+        "R2": 0.9555,
+        "MAPE": 0.1477,
+        "Training_Time_s": 0.12,
+        "Prediction_Time_s": 0.0036
+    },
+    "LightGBM": {
+        "MAE": 2415.68,
+        "RMSE": 3037.51,
+        "R2": 0.9596,
+        "MAPE": 0.142,
+        "Training_Time_s": 0.08,
+        "Prediction_Time_s": 0.0035
+    },
+    "CatBoost": {
+        "MAE": 2454.7,
+        "RMSE": 3086.88,
+        "R2": 0.9583,
+        "MAPE": 0.1425,
+        "Training_Time_s": 0.34,
+        "Prediction_Time_s": 0.0028
+    },
+    "GradientBoosting": {
+        "MAE": 2383.92,
+        "RMSE": 3003.26,
+        "R2": 0.9605,
+        "MAPE": 0.1421,
+        "Training_Time_s": 2.77,
+        "Prediction_Time_s": 0.0035
+    }
+}

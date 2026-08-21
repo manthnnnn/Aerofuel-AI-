@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #070b14;
+    color: #e2e8f0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Futuristic Cockpit Glassmorphism & Cyber telemetry styling */
+.cockpit-panel {
+  background: rgba(13, 21, 38, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6), 0 0 15px -3px rgba(6, 182, 212, 0.05);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cockpit-panel:hover {
+  border-color: rgba(56, 189, 248, 0.3);
+  box-shadow: 0 12px 35px -10px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(6, 182, 212, 0.12);
+}
+
+.cockpit-panel-glow {
+  background: linear-gradient(135deg, rgba(14, 28, 54, 0.85) 0%, rgba(8, 15, 30, 0.9) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.8), 0 0 25px 2px rgba(0, 240, 255, 0.12);
+}
+
+.cockpit-panel-inner {
+  background: rgba(6, 11, 22, 0.6);
+  border: 1px solid rgba(56, 189, 248, 0.1);
+  border-radius: 14px;
+}
+
+.cockpit-input {
+  background: rgba(10, 17, 32, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 12px;
+  color: #f8fafc;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.cockpit-input:focus {
+  border-color: #00f0ff;
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.25);
+  background: rgba(12, 22, 42, 0.95);
+}
+
+.cockpit-btn-primary {
+  background: linear-gradient(135deg, #00f0ff 0%, #0284c7 100%);
+  color: #041324;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.35);
+  transition: all 0.2s ease;
+}
+
+.cockpit-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 28px rgba(0, 240, 255, 0.55);
+}
+
+.cockpit-btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.cockpit-btn-secondary {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  color: #93c5fd;
+  transition: all 0.2s ease;
+}
+
+.cockpit-btn-secondary:hover {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(56, 189, 248, 0.5);
+  color: #ffffff;
+}
+
+/* Ambient glow & cyber grid background */
+.cyber-grid-bg {
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 240, 255, 0.12), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 90% 80%, rgba(59, 130, 246, 0.08), transparent 60%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(8, 14, 26, 0.7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.6);
+}
+
+/* Leaflet Dark Map Tweaks */
+.leaflet-container {
+  background: #080d1a !important;
+  font-family: inherit !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6) !important;
+}
+
+.leaflet-popup-tip {
+  background: #0f172a !important;
+}
+
+/* Custom telemetry animations */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6)); }
+  50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(0, 240, 255, 0.9)); }
+}
+
+.pulse-telemetry {
+  animation: pulseGlow 3s infinite ease-in-out;
+}

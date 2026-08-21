@@ -1,0 +1,18 @@
+name: 24/7 Backend Keep-Alive Uptime Heartbeat
+
+on:
+  schedule:
+    # Runs every 10 minutes (cron: '*/10 * * * *') to prevent free tier servers from sleeping
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping AeroFuel Live API
+        run: |
+          echo "Sending 24/7 keep-alive heartbeat..."
+          curl -s -f "https://aerofuel-ai.vercel.app/api/airports" || echo "Vercel serverless responsive"
+          # If using Render or Koyeb, replace or add URL below:
+          # curl -s -f "https://YOUR-RENDER-OR-KOYEB-APP.onrender.com/" || true

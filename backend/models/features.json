@@ -1,0 +1,14 @@
+[
+    "flight_distance_km",
+    "aircraft_weight_kg",
+    "num_engines",
+    "engine_thrust_lbf",
+    "cruise_speed_kmph",
+    "cruise_altitude_ft",
+    "total_thrust_lbf",
+    "power_to_weight_ratio",
+    "estimated_flight_duration_hr",
+    "engine_load_index",
+    "speed_efficiency_score",
+    "performance_index"
+]

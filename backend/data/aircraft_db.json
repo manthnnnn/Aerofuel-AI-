@@ -1,0 +1,17 @@
+[
+  { "id": "A320", "name": "Airbus A320", "weight_kg": 60000, "thrust_lbf": 27000, "num_engines": 2, "cruise_speed_kmph": 828, "cruise_altitude_ft": 39000 },
+  { "id": "A321", "name": "Airbus A321", "weight_kg": 70000, "thrust_lbf": 33000, "num_engines": 2, "cruise_speed_kmph": 828, "cruise_altitude_ft": 39000 },
+  { "id": "A330", "name": "Airbus A330-300", "weight_kg": 170000, "thrust_lbf": 68000, "num_engines": 2, "cruise_speed_kmph": 871, "cruise_altitude_ft": 41000 },
+  { "id": "A350", "name": "Airbus A350-900", "weight_kg": 200000, "thrust_lbf": 84000, "num_engines": 2, "cruise_speed_kmph": 903, "cruise_altitude_ft": 43100 },
+  { "id": "A380", "name": "Airbus A380-800", "weight_kg": 380000, "thrust_lbf": 70000, "num_engines": 4, "cruise_speed_kmph": 903, "cruise_altitude_ft": 43000 },
+  { "id": "B737", "name": "Boeing 737-800", "weight_kg": 55000, "thrust_lbf": 26000, "num_engines": 2, "cruise_speed_kmph": 838, "cruise_altitude_ft": 41000 },
+  { "id": "B739", "name": "Boeing 737-900", "weight_kg": 60000, "thrust_lbf": 28000, "num_engines": 2, "cruise_speed_kmph": 838, "cruise_altitude_ft": 41000 },
+  { "id": "B747", "name": "Boeing 747-8", "weight_kg": 350000, "thrust_lbf": 66500, "num_engines": 4, "cruise_speed_kmph": 914, "cruise_altitude_ft": 43000 },
+  { "id": "B777", "name": "Boeing 777-300ER", "weight_kg": 240000, "thrust_lbf": 115300, "num_engines": 2, "cruise_speed_kmph": 892, "cruise_altitude_ft": 43100 },
+  { "id": "B787", "name": "Boeing 787-9 Dreamliner", "weight_kg": 170000, "thrust_lbf": 71000, "num_engines": 2, "cruise_speed_kmph": 903, "cruise_altitude_ft": 43100 },
+  { "id": "E190", "name": "Embraer E190", "weight_kg": 38000, "thrust_lbf": 18500, "num_engines": 2, "cruise_speed_kmph": 820, "cruise_altitude_ft": 41000 },
+  { "id": "CRJ9", "name": "Bombardier CRJ-900", "weight_kg": 28000, "thrust_lbf": 14500, "num_engines": 2, "cruise_speed_kmph": 829, "cruise_altitude_ft": 41000 },
+  { "id": "C208", "name": "Cessna 208 Caravan", "weight_kg": 3000, "thrust_lbf": 2000, "num_engines": 1, "cruise_speed_kmph": 340, "cruise_altitude_ft": 25000 },
+  { "id": "A319", "name": "Airbus A319", "weight_kg": 50000, "thrust_lbf": 22000, "num_engines": 2, "cruise_speed_kmph": 828, "cruise_altitude_ft": 39000 },
+  { "id": "B767", "name": "Boeing 767-300ER", "weight_kg": 120000, "thrust_lbf": 60000, "num_engines": 2, "cruise_speed_kmph": 850, "cruise_altitude_ft": 43100 }
+]

@@ -1,0 +1,21 @@
+# Node & Frontend Build
+node_modules/
+dist/
+.env
+.env.local
+
+# Python & ML
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+catboost_info/
+lightning_logs/
+wandb/
+
+# System
+.DS_Store
+Thumbs.db

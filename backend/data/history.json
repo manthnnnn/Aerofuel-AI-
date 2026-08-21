@@ -1,0 +1,119 @@
+[
+    {
+        "timestamp": "2026-08-06 22:06:41",
+        "flight_data": {
+            "distance": 1500,
+            "weight": 80000,
+            "engines": 2,
+            "thrust": 30000,
+            "speed": 800,
+            "altitude": 35000
+        },
+        "prediction": 7677.548624735175,
+        "co2": 24261.05365416315
+    },
+    {
+        "timestamp": "2026-08-06 22:50:48",
+        "flight_data": {
+            "flight_distance_km": 1500.0,
+            "aircraft_weight_kg": 170000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 68000.0,
+            "cruise_speed_kmph": 871.0,
+            "cruise_altitude_ft": 41000.0
+        },
+        "prediction": 9637.56390654145,
+        "co2": 30454.701944670986
+    },
+    {
+        "timestamp": "2026-08-06 22:51:01",
+        "flight_data": {
+            "flight_distance_km": 7606.0,
+            "aircraft_weight_kg": 170000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 68000.0,
+            "cruise_speed_kmph": 871.0,
+            "cruise_altitude_ft": 41000.0
+        },
+        "prediction": 30683.647320257754,
+        "co2": 96960.32553201451
+    },
+    {
+        "timestamp": "2026-08-06 22:57:34",
+        "flight_data": {
+            "flight_distance_km": 7606.0,
+            "aircraft_weight_kg": 38000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 18500.0,
+            "cruise_speed_kmph": 820.0,
+            "cruise_altitude_ft": 41000.0
+        },
+        "prediction": 28098.085515279716,
+        "co2": 88789.95022828391
+    },
+    {
+        "timestamp": "2026-08-06 23:01:53",
+        "flight_data": {
+            "flight_distance_km": 1500.0,
+            "aircraft_weight_kg": 80000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 30000.0,
+            "cruise_speed_kmph": 800.0,
+            "cruise_altitude_ft": 35000.0
+        },
+        "prediction": 7677.548624735175,
+        "co2": 24261.05365416315
+    },
+    {
+        "timestamp": "2026-08-06 23:03:20",
+        "flight_data": {
+            "flight_distance_km": 8474.0,
+            "aircraft_weight_kg": 120000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 60000.0,
+            "cruise_speed_kmph": 850.0,
+            "cruise_altitude_ft": 43100.0
+        },
+        "prediction": 32446.26027294324,
+        "co2": 102530.18246250064
+    },
+    {
+        "timestamp": "2026-08-06 23:04:06",
+        "flight_data": {
+            "flight_distance_km": 8474.0,
+            "aircraft_weight_kg": 120000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 60000.0,
+            "cruise_speed_kmph": 850.0,
+            "cruise_altitude_ft": 43100.0
+        },
+        "prediction": 32446.26027294324,
+        "co2": 102530.18246250064
+    },
+    {
+        "timestamp": "2026-08-06 23:04:10",
+        "flight_data": {
+            "flight_distance_km": 1500.0,
+            "aircraft_weight_kg": 80000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 30000.0,
+            "cruise_speed_kmph": 800.0,
+            "cruise_altitude_ft": 35000.0
+        },
+        "prediction": 7677.548624735175,
+        "co2": 24261.05365416315
+    },
+    {
+        "timestamp": "2026-08-06 23:07:59",
+        "flight_data": {
+            "flight_distance_km": 1500.0,
+            "aircraft_weight_kg": 80000.0,
+            "num_engines": 2,
+            "engine_thrust_lbf": 30000.0,
+            "cruise_speed_kmph": 800.0,
+            "cruise_altitude_ft": 35000.0
+        },
+        "prediction": 7677.548624735175,
+        "co2": 24261.05365416315
+    }
+]
