@@ -1,0 +1,9 @@
+catboost_info
+backend/catboost_info
+frontend/node_modules
+docs
+backend/legacy
+backend/data/*.pdf
+backend/data/*.csv
+.github
+*.log
